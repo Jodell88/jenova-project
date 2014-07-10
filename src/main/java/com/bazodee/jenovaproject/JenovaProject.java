@@ -1,20 +1,20 @@
 package com.bazodee.jenovaproject;
 
 import com.bazodee.jenovaproject.proxy.Proxy;
+import com.bazodee.jenovaproject.reference.Reference;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = "jenovaproject", name = "Jenova Project", version = "1.7.10-0.1")
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 public class JenovaProject
 {
-    @Mod.Instance("JenovaProject")
+    @Mod.Instance(Reference.MOD_ID)
     public static JenovaProject instance;
 
-    @SidedProxy(clientSide = "com.bazodee.jenovaproject.proxy.ClientProxy",
-                serverSide = "com.bazodee.jenovaproject.proxy.ServerProxy")
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     public static Proxy proxy;
 
     @Mod.EventHandler
