@@ -1,0 +1,21 @@
+[
+{
+  "modid": "jenovaproject",
+  "name": "Jenova Project",
+  "description": "An Ancients Project",
+  "version": "0.1",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "Bazodee88"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
