@@ -1,5 +1,10 @@
 *.class
 *.log
+*.iml
+*.ipr
+*.iws
+
+# Directories
 out/
 eclipse/
 .gradle/
