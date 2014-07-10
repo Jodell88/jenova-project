@@ -1,6 +1,7 @@
 package com.bazodee.jenovaproject;
 
 import com.bazodee.jenovaproject.handler.ConfigurationHandler;
+import com.bazodee.jenovaproject.init.ModBlocks;
 import com.bazodee.jenovaproject.init.ModItems;
 import com.bazodee.jenovaproject.proxy.Proxy;
 import com.bazodee.jenovaproject.reference.Reference;
@@ -27,6 +28,7 @@ public class JenovaProject
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
         ModItems.init();
+        ModBlocks.init();
     }
 
     @Mod.EventHandler
