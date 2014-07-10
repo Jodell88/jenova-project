@@ -1,6 +1,7 @@
 package com.bazodee.jenovaproject;
 
 import com.bazodee.jenovaproject.handler.ConfigurationHandler;
+import com.bazodee.jenovaproject.init.ModItems;
 import com.bazodee.jenovaproject.proxy.Proxy;
 import com.bazodee.jenovaproject.reference.Reference;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -24,6 +25,8 @@ public class JenovaProject
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
+        ModItems.init();
     }
 
     @Mod.EventHandler
