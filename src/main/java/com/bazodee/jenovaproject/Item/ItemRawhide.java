@@ -1,4 +1,4 @@
-package com.bazodee.jenovaproject.init;
+package com.bazodee.jenovaproject.Item;
 
 import com.bazodee.jenovaproject.Item.ItemJP;
 
