@@ -1,15 +1,21 @@
 package com.bazodee.jenovaproject;
 
+import com.bazodee.jenovaproject.proxy.Proxy;
 import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid="jenovaproject", name="Jenova Project", version="1.7.10-0.1")
+@Mod(modid = "jenovaproject", name = "Jenova Project", version = "1.7.10-0.1")
 public class JenovaProject
 {
     @Mod.Instance("JenovaProject")
     public static JenovaProject instance;
+
+    @SidedProxy(clientSide = "com.bazodee.jenovaproject.proxy.ClientProxy",
+                serverSide = "com.bazodee.jenovaproject.proxy.ServerProxy")
+    public static Proxy proxy;
 
     @Mod.EventHandler
     public void preInitialization(FMLPreInitializationEvent event)
