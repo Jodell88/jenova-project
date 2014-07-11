@@ -1,3 +1,9 @@
 # Item Localizations
 
 item.jenovaproject:rawhide.name=Rawhide
+
+# Block Localizations
+
+tile.jenovaproject:copperOre.name=Copper Ore
+tile.jenovaproject:tinOre.name=Tin Ore
+tile.jenovaproject:chromiteOre.name=Chromite Ore
