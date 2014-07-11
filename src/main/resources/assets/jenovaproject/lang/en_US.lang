@@ -3,6 +3,7 @@
 item.jenovaproject:rawhide.name=Rawhide
 item.jenovaproject:ingotTin.name=Tin Ingot
 item.jenovaproject:ingotCopper.name=Copper Ingot
+item.jenovaproject:ingotChromium.name=Chromium Ingot
 
 
 # Block Localizations
