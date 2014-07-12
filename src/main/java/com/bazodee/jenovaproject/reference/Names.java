@@ -20,11 +20,12 @@ public class Names
 
     public static class ToolsAndWeapons
     {
-        public static final String BRONZE_TOOL = "bronzeToolMaterial";
+        public static final String BRONZE_TOOL = "bronze";
         public static final String BRONZE_AXE = "bronzeAxe";
         public static final String BRONZE_PICKAXE = "bronzePickaxe";
         public static final String BRONZE_SHOVEL = "bronzeShovel";
         public static final String BRONZE_SWORD = "bronzeSword";
+        public static final String BRONZE_HOE = "bronzeHoe";
     }
 
     public static class Item
