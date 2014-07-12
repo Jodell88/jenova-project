@@ -11,7 +11,7 @@ public class Names
 
     public static class Armor
     {
-        public static final String BRONZE_ARMOR = "bronzeArmorMaterial";
+        public static final String BRONZE_ARMOR = "bronze";
         public static final String BRONZE_HELM = "bronzeHelm";
         public static final String BRONZE_CHEST = "bronzeChest";
         public static final String BRONZE_LEGS = "bronzeLegs";
