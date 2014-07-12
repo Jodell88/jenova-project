@@ -1,5 +1,6 @@
 package com.bazodee.jenovaproject.Item;
 
+import com.bazodee.jenovaproject.creativetab.CreativeTabJP;
 import com.bazodee.jenovaproject.reference.Names;
 import com.bazodee.jenovaproject.reference.Textures;
 import com.bazodee.jenovaproject.utils.ArmorType;
@@ -23,6 +24,7 @@ public abstract class ItemArmorJP extends ItemArmor implements ISpecialArmor
         super(armorMaterial, 1, armorType.ordinal());
         this.setUnlocalizedName(armorName);
         this.setTextureName(String.format("%s%s%s", Textures.RESOURCE_PREFIX, armorName, getArmorTypeName(this.armorType)));
+        this.setCreativeTab(CreativeTabJP.JP_TABS);
     }
 
     @Override
