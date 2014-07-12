@@ -35,7 +35,7 @@ public class Names
 
         public static final String RAWHIDE = "rawhide";
 
-        public static final String COOKED_EGG = "cookedEgg";
+        public static final String COOKED_EGG = "cookedEggs";
     }
 
 }

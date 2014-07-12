@@ -4,6 +4,8 @@ item.jenovaproject:rawhide.name=Rawhide
 item.jenovaproject:ingotTin.name=Tin Ingot
 item.jenovaproject:ingotCopper.name=Copper Ingot
 item.jenovaproject:ingotChromium.name=Chromium Ingot
+item.jenovaproject:cookedEggs.name=Cooked Eggs
+
 
 item.jenovaproject:bronzeHelm.name=Bronze Helmet
 item.jenovaproject:bronzeChest.name=Bronze Chestplate

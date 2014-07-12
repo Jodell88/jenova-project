@@ -4,6 +4,7 @@ import com.bazodee.jenovaproject.block.BlockChromiteOre;
 import com.bazodee.jenovaproject.block.BlockCopperOre;
 import com.bazodee.jenovaproject.block.BlockJP;
 import com.bazodee.jenovaproject.block.BlockTinOre;
+import com.bazodee.jenovaproject.reference.Names;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ModBlocks
@@ -15,8 +16,8 @@ public class ModBlocks
 
     public static void init()
     {
-        GameRegistry.registerBlock(copperOre, "copperOre");
-        GameRegistry.registerBlock(tinOre, "tinOre");
-        GameRegistry.registerBlock(chromiteOre, "chromiteOre");
+        GameRegistry.registerBlock(copperOre, Names.Block.COPPER_ORE);
+        GameRegistry.registerBlock(tinOre, Names.Block.TIN_ORE);
+        GameRegistry.registerBlock(chromiteOre, Names.Block.CHROMITE_ORE);
     }
 }

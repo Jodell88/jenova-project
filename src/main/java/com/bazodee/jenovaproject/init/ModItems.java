@@ -11,6 +11,7 @@ public class ModItems
     public static final ItemJP ingotTin = new ItemIngotTin();
     public static final ItemJP ingotCopper = new ItemIngotCopper();
     public static final ItemJP ingotChromium = new ItemIngotChromium();
+    public static final ItemFoodJP cookedEggs = new ItemCookedEggs();
 
     public static final ItemArmorJP bronzeHelm = new ItemArmorBronze(ArmorType.HELMET);
     public static final ItemArmorJP bronzeChest = new ItemArmorBronze(ArmorType.CHEST);
@@ -19,10 +20,11 @@ public class ModItems
 
     public static void init()
     {
-        GameRegistry.registerItem(rawhide, "rawhide");
-        GameRegistry.registerItem(ingotTin, "ingotTin");
-        GameRegistry.registerItem(ingotCopper, "ingotCopper");
-        GameRegistry.registerItem(ingotChromium, "ingotChromium");
+        GameRegistry.registerItem(rawhide, Names.Item.RAWHIDE);
+        GameRegistry.registerItem(ingotTin, Names.Item.INGOT_TIN);
+        GameRegistry.registerItem(ingotCopper, Names.Item.INGOT_COPPER);
+        GameRegistry.registerItem(ingotChromium, Names.Item.INGOT_CHROMIUM);
+        GameRegistry.registerItem(cookedEggs, Names.Item.COOKED_EGG);
 
         GameRegistry.registerItem(bronzeHelm, Names.Armor.BRONZE_HELM);
         GameRegistry.registerItem(bronzeChest, Names.Armor.BRONZE_CHEST);
