@@ -20,6 +20,10 @@ public class BlockJP extends Block
     public BlockJP()
     {
         super(Material.rock);
+        this.setHarvestLevel("pickaxe", 2);
+        this.setResistance(5.0f);
+        this.setHardness(3.0f);
+        this.setStepSound(soundTypePiston);
         this.setCreativeTab(CreativeTabJP.JP_TABS);
     }
 
