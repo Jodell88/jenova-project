@@ -1,7 +1,10 @@
 package com.bazodee.jenovaproject.init;
 
 import com.bazodee.jenovaproject.Item.*;
+import com.bazodee.jenovaproject.Item.tools.ItemBronzeAxe;
+import com.bazodee.jenovaproject.Item.tools.ItemBronzeHoe;
 import com.bazodee.jenovaproject.Item.tools.ItemBronzePickaxe;
+import com.bazodee.jenovaproject.Item.tools.ItemBronzeShovel;
 import com.bazodee.jenovaproject.reference.Names;
 import com.bazodee.jenovaproject.utils.ArmorType;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -20,6 +23,9 @@ public class ModItems
     public static final ItemArmorJP bronzeBoots = new ItemArmorBronze(ArmorType.BOOTS);
 
     public static final ItemBronzePickaxe bronzePickaxe = new ItemBronzePickaxe();
+    public static final ItemBronzeAxe bronzeAxe = new ItemBronzeAxe();
+    public static final ItemBronzeShovel bronzeShovel = new ItemBronzeShovel();
+    public static final ItemBronzeHoe bronzeHoe = new ItemBronzeHoe();
 
     public static void init()
     {
@@ -35,5 +41,8 @@ public class ModItems
         GameRegistry.registerItem(bronzeBoots, Names.Armor.BRONZE_BOOTS);
 
         GameRegistry.registerItem(bronzePickaxe, Names.ToolsAndWeapons.BRONZE_PICKAXE);
+        GameRegistry.registerItem(bronzeAxe, Names.ToolsAndWeapons.BRONZE_AXE);
+        GameRegistry.registerItem(bronzeShovel, Names.ToolsAndWeapons.BRONZE_SHOVEL);
+        GameRegistry.registerItem(bronzeHoe, Names.ToolsAndWeapons.BRONZE_HOE);
     }
 }
