@@ -8,6 +8,7 @@
 out/
 eclipse/
 .gradle/
+run/
 
 
 # Mobile Tools for Java (J2ME)
